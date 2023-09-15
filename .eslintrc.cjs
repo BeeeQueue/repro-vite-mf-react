@@ -5,5 +5,8 @@ module.exports = {
   extends: ["plugin:@beequeue/base", "plugin:@beequeue/typescript", "plugin:@beequeue/esm"],
   parserOptions: {
     project: ["./tsconfig.json", "mfs/*/tsconfig.json"],
-  }
+  },
+  rules: {
+    "prettier/prettier": "off",
+  },
 }
