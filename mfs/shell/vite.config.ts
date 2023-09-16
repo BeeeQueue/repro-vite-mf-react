@@ -10,6 +10,7 @@ import { createEsBuildAdapter } from "@softarc/native-federation-esbuild"
 import { reactReplacements } from "@softarc/native-federation-esbuild/src/lib/react-replacements"
 import React from "@vitejs/plugin-react"
 
+// @ts-ignore: Stupid
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const gitSha = execSync("git rev-parse --short HEAD").toString().trim()
 
