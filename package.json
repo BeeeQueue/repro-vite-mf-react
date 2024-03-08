@@ -20,7 +20,7 @@
     "prepare": "simple-git-hooks"
   },
   "devDependencies": {
-    "@beequeue/eslint-plugin": "3.0.1",
+    "@beequeue/eslint-plugin": "4.0.1",
     "@module-federation/vite": "0.2.7",
     "@softarc/native-federation": "2.0.2",
     "@softarc/native-federation-esbuild": "2.0.2",
@@ -35,8 +35,8 @@
     "dotenv": "16.3.1",
     "es-module-shims": "1.8.0",
     "eslint": "8.49.0",
-    "eslint-define-config": "1.23.0",
-    "lint-staged": "14.0.1",
+    "eslint-define-config": "2.1.0",
+    "lint-staged": "15.2.2",
     "simple-git-hooks": "2.9.0",
     "tsup": "7.2.0",
     "typescript": "5.2.2",
