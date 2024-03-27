@@ -10,10 +10,10 @@
     "typecheck": "tsc --noEmit --project tsconfig.json"
   },
   "dependencies": {
-    "@softarc/native-federation": "2.0.2",
+    "@softarc/native-federation": "2.0.8",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-router-dom": "6.16.0",
-    "styled-components": "6.0.8"
+    "react-router-dom": "6.22.3",
+    "styled-components": "6.1.8"
   }
 }
